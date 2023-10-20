@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Archivo', sans-serif;
+}
+
+
+.logobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+}
+
+#logo {
+    width: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.lista1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.navlink {
+    color: #222222;
+}
+
+.desplegablemenu {
+    display: block;
+    position: relative;
+    justify-content: center;
+}
+
+.desplegablemenu:hover .contenidodesplegable {
+    display: block;
+    opacity: 1;
+    color: #222222;
+    text-decoration: none;
+}
+
+.contenidodesplegable {
+    display: none;
+    position: absolute;
+    color: #222222;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    opacity: 0;
+    background: #FEFEFE;
+    font-size: 14px;
+    font-weight: 500;
+    width: 150%;
+}
+
+.itemdesplegable {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.principal {
+    font-size: 3.6vw;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    width: 100%;
+    color: #FEFEFE;
+    background-color: #222222;
+}
+
+.bajadaprincipal {
+    font-size: 2vw;
+    margin: 15px;
+}
+
+.grilla {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.celda {
+    width: 25%;
+}
+
+#calin {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#calin:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+#analog {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#analog:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+#cant {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#cant:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+#conejo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#conejo:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+#palatino {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#palatino:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+#buensuceso {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#buensuceso:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+#neuroteras {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#neuroteras:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+#naipes {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#naipes:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+
+#osdop {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#osdop:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+#noche {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#noche:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+#viaje {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#viaje:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+
+#amsterdam {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#amsterdam:hover {
+    filter: grayscale(100%) opacity(0.3);
+    transition: opacity 500ms;
+}
+
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 5px;
+    background-color: black
+}
+
+.titulocontacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #FEFEFE;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: black;
+    color: #FEFEFE;
+    padding-bottom: 10%;
+}
+
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+#envio {
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 70%;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+::placeholder {
+    color: grey;
+}
+
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 850px;
+    margin-top: 5px;
+    background-color: #222222;
+    color: #FEFEFE;
+}
+
+
+
+.textobio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    letter-spacing: -1px;
+    font-size: 26px;
+    animation: fadeIn 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 0,5rem;  
+}
+
+.historiabio {
+    font-size: 13px;
+    font-weight: 500;
+    width: 70%;
+}
+
+
+.modelotrabajocalin {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/crema_balsamo.png);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajoanalog {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/analogback.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajocant {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/vegan.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajoconejo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/conejo.png);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajopalatino {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/palatinoback.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajobuensuceso {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/buensucesoback.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajoneuroteras {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/neuroterasback.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajonaipes {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/Gillsans.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajoosdop {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/osdopback.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajonpdn {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/npdnback.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajoviaje {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/viajeback.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.modelotrabajoamsterdam {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    background-image: url(./multimedia/IMG/amsterdamback.jpg);
+    background-size: cover;
+    height: 850px;
+}
+
+.presentaciontrabajo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #FEFEFE;
+    font-size: 22px;
+    width: 40%;
+    margin-left: 70px;
+}
+
+.bajadatipotrabajo {
+    color: #FEFEFE;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.descripciontrabajo {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FEFEFE;
+    margin-top: 12px;
+}
+
+.linkbehance {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FEFEFE;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    background-color: #222222;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 3rem;
+}
+
+img {
+    object-fit: cover;
+}
+
+.textofinal {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #FEFEFE;
+}
+
+@media only screen and (max-width:650px) {
+    .logobox {
+        height: 3rem;
+    }
+
+    .menu {
+        font-size: 2.5vw;
+    }
+    
+
+    .textofinal {
+        font-size: 0.6rem;
+    }
+
+
+}
